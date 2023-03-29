@@ -1,9 +1,24 @@
 <script>
+  import { initializeApp, getApps, getApp } from "firebase/app";
+  import { getFirestore, collection, onSnapshot,addDoc  } from "firebase/firestore";
+  import {firebaseConfig} from "../firebaseConfig";
+
     let Texti = "";
-    function handleClick() {
+    
+    const firebaseApp = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
+    const db = getFirestore();
+    const colRef = collection(db, "journal")
+
+    async function handleClick() {
         console.log(Texti);
+        await addDoc(colRef, {
+          content: Texti,
+          date: "26 March"
+        });
     }
+
 </script>
+
 <div>
 <div class = "Texte"><textarea bind:value={Texti} class="journaltxt" maxlength="1200" rows="15" cols="60"></textarea><br>
  
