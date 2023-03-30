@@ -80,6 +80,9 @@
 
 
 
+
+
+
 <style>
     .movies{
         font-family: "Poppins",sans-serif;
@@ -185,6 +188,29 @@
 
 
 
+
+
+:root {
+  --backgroundColor: rgba(246, 241, 209);
+  --colorShadeA: rgb(106, 163, 137);
+  --colorShadeB: rgb(121, 186, 156);
+  --colorShadeC: rgb(150, 232, 195);
+  --colorShadeD: rgb(187, 232, 211);
+  --colorShadeE: rgb(205, 255, 232);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .genre{
     color: white;
     font-size: 20px;
@@ -216,7 +242,6 @@
     box-shadow: 0px 0px 10px #3FBAFF;
     text-shadow: 0px 0px 10px #3FBAFF;
 }
-
 .bottom-to{
     display: flex;
     
@@ -238,6 +263,7 @@
     opacity: 80%;
     
 }
+
 img{
     width: 190px;
     height: 170px;

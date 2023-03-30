@@ -10,8 +10,8 @@
     const colRef = collection(db, "journal")
 
     async function handleClick() {
-        console.log(Texti);
-        await addDoc(colRef, {
+          console.log(Texti);
+          await addDoc(colRef, {
           content: Texti,
           date: "26 March"
         });
@@ -99,11 +99,25 @@
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  
 }
 
 .saveit:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  
+}
+
+
+
+.saveit:active {
+  transform: translate(0em, 0.15em);
+}
+
+
+.saveit:active::before {
+  transform: translate3d(0, 0, -1em);
+  box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
 }
   
 </style>

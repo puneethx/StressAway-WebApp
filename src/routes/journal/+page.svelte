@@ -6,13 +6,15 @@
     import Movie from "$lib/Journal/movies.svelte";
     import Footer from "$lib/footer.svelte";
 </script>
-<slot></slot>
-
+<main>
 <Header/>
 <Everyday/>
 <Text/>
 <Music/>
 <Movie/>
 <Footer/>
+</main>
+
+
 
 

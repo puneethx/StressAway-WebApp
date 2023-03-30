@@ -1,5 +1,6 @@
 <script>
-   import Logo from "$lib/assets/logosr.png"
+   import Logo from "$lib/assets/logosr.png";
+
 </script>
 
 
@@ -15,7 +16,7 @@
                 <a href="/" class="nav-link">Home</a>
             </a>
             <a href = "/journal" class="nav-item">
-                <a href="/journal" class="nav-link">Journal</a>
+                <a href="/journal" class="nav-link">Journal</a> 
             </a>
             <a href = "/" class="nav-item">
                 <a href="/" class="nav-link">About</a>
@@ -59,23 +60,16 @@
     transition: opacity 0.3s;
     z-index: -1;
   }
-  .header.is-active::after {
-    opacity: 1;
-  }
-  .main {
-    padding-block: 6em;
-  }
   
   
 
   .container {
     max-width: 50rem;
     margin-left: 58px;
-      margin-top: 18px;
-      margin-right: 48px;
+    margin-top: 18px;
+    margin-right: 48px;
     padding-inline: 2rem;
-    color: white;
-    
+    color: white;    
   }
 
   .navbar {
