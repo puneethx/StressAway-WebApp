@@ -1,5 +1,8 @@
 <script>
-    import artistPic from "$lib/assets/artpic1.png"
+    import artistPic1 from "$lib/assets/artpic1.png"
+    import artistPic2 from "$lib/assets/artpic2.png"
+    import artistPic3 from "$lib/assets/artpic3.png"
+    import artistPic4 from "$lib/assets/artpic4.png"
 </script>
 
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -9,7 +12,7 @@
     <div class="music-box-dance">
         <p class="genre">DANCE</p>
         <div class="artist-img">
-            <img src={artistPic} alt="network issue"/>
+            <img src={artistPic1} alt="network issue"/>
         </div>
         <div class="back-grad">
             <span class="bottom-to">
@@ -26,14 +29,14 @@
 <div class="music-box-pop">
         <p class="genre">POP</p>
         <div class="artist-img">
-            <img src={artistPic} alt="network issue"/>
+            <img src={artistPic2} alt="network issue"/>
         </div>
         <div class="back-grad">
             <span class="bottom-to">
                 <button class="play-button">▶</button>
                 <div>
-                    <p class="music-name">Flowers</p>
-                    <p class="artist-name">Miley Cyrus</p>
+                    <p class="music-name">Levitating</p>
+                    <p class="artist-name">Dua Lipa</p>
                 </div>
             
             </span>
@@ -43,14 +46,14 @@
     <div class="music-box-rock">
         <p class="genre">ROCK</p>
         <div class="artist-img">
-            <img src={artistPic} alt="network issue"/>
+            <img src={artistPic3} alt="network issue"/>
         </div>
         <div class="back-grad">
             <span class="bottom-to">
                 <button class="play-button">▶</button>
                 <div>
-                    <p class="music-name">Flowers</p>
-                    <p class="artist-name">Miley Cyrus</p>
+                    <p class="music-name">Blinding Lights</p>
+                    <p class="artist-name">The Weeknd</p>
                 </div>
             
             </span>
@@ -60,14 +63,14 @@
     <div class="music-box-melody">
         <p class="genre">MELODY</p>
         <div class="artist-img">
-            <img src={artistPic} alt="network issue"/>
+            <img src={artistPic4} alt="network issue"/>
         </div>
         <div class="back-grad">
             <span class="bottom-to">
                 <button class="play-button">▶</button>
                 <div>
-                    <p class="music-name">Flowers</p>
-                    <p class="artist-name">Miley Cyrus</p>
+                    <p class="music-name">Perfect</p>
+                    <p class="artist-name">Ed Sheeran</p>
                 </div>
             
             </span>

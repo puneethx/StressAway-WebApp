@@ -1,5 +1,8 @@
 <script>
-    import artistPic from "$lib/assets/artpic1.png"
+    import moviePic1 from "$lib/assets/movpic1.png"
+    import moviePic2 from "$lib/assets/movpic2.png"
+    import moviePic3 from "$lib/assets/movpic3.png"
+    import moviePic4 from "$lib/assets/movpic4.png"
 </script>
 
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -9,14 +12,14 @@
     <div class="movie-box-feelgood">
         <p class="genre">Feel Good</p>
         <div class="artist-img">
-            <img src={artistPic} alt="network issue"/>
+            <img src={moviePic1} alt="network issue"/>
         </div>
         <div class="back-grad">
             <span class="bottom-to">
                 <button class="play-button">▶</button>
                 <div>
-                    <p class="movie-name">Big</p>
-                    <p class="director-name">Penny</p>
+                    <p class="movie-name">Forrest Gump</p>
+                    <p class="director-name">Robert Zemeckis</p>
                 </div>
             
             </span>
@@ -26,14 +29,14 @@
 <div class="movie-box-fantasy">
         <p class="genre">Fantasy</p>
         <div class="artist-img">
-            <img src={artistPic} alt="network issue"/>
+            <img src={moviePic2} alt="network issue"/>
         </div>
         <div class="back-grad">
             <span class="bottom-to">
                 <button class="play-button">▶</button>
                 <div>
-                    <p class="movie-name">Big</p>
-                    <p class="director-name">Penny</p>
+                    <p class="movie-name">Harry Potter</p>
+                    <p class="director-name">David Yates</p>
                 </div>
             
             </span>
@@ -43,14 +46,14 @@
     <div class="movie-box-science">
         <p class="genre">science Fiction</p>
         <div class="artist-img">
-            <img src={artistPic} alt="network issue"/>
+            <img src={moviePic3} alt="network issue"/>
         </div>
         <div class="back-grad">
             <span class="bottom-to">
                 <button class="play-button">▶</button>
                 <div>
-                    <p class="movie-name">Big</p>
-                    <p class="director-name">Penny</p>
+                    <p class="movie-name">Avatar</p>
+                    <p class="director-name">James Cameron</p>
                 </div>
             
             </span>
@@ -60,14 +63,14 @@
     <div class="movie-box-thriller">
         <p class="genre">Thriller</p>
         <div class="artist-img">
-            <img src={artistPic} alt="network issue"/>
+            <img src={moviePic4} alt="network issue"/>
         </div>
         <div class="back-grad">
             <span class="bottom-to">
                 <button class="play-button">▶</button>
                 <div>
-                    <p class="movie-name">Big</p>
-                    <p class="director-name">Penny</p>
+                    <p class="movie-name">John Wick</p>
+                    <p class="director-name">Chad Stahelski</p>
                 </div>
             
             </span>
