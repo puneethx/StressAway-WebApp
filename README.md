@@ -1,19 +1,18 @@
 # Welcome To StressAway
 ![banner](StressAwayBanner.png)
-
 ----
-#### What is StressAway🏥?
+### What is StressAway🏥?
 
 StressAway is a product that enhances the mood of a person by recommending stress relief ways based on the journal written by the person. The product analyzes the journal📒, understands the mood of a person and recommends music🎶 , movies🎬, books📚, exercises🏋️, diet🥗 and also the places around the user’s location 📍 that boosts his/her mood.
 
-#### Our Aim🦋
+### Our Aim🦋
 
-##### ***To help all students maintain Good Mental Health.*** 👨‍🎓👩‍🎓
+#### ***To help all students maintain Good Mental Health.*** 👨‍🎓👩‍🎓
 
 
 [**Website link**](https://stress-away-web-app.vercel.app/) 👨‍💻
 
-[**Mobile Application link (Android)**](https://docs.google.com/document/d/18u4a0I_mjZga2vXR3gWfkexkVFREo55jOuwgyH-Xjsg/edit?usp=sharing) 👩‍💻
+[**Mobile Application link (Android)**](https://drive.google.com/drive/folders/13kcI2Q12l0TTOh-hZVT12UmhoosnpiUQ?usp=share_link) 👩‍💻
 
 ----
 ### Setup the website😉
@@ -23,6 +22,8 @@ StressAway is a product that enhances the mood of a person by recommending stres
 - 1️⃣ fork the repository📗 and give it a star🌟
 - 2️⃣ pull down the repository which you have forked.
 - 3️⃣ in the same directory install run🏃 the following commands.
+
+>Directory
 
 Make sure that Node.js is previously installed in your system, than run the below command
 
@@ -61,13 +62,13 @@ StressAway is designed to help individuals manage and reduce their stress levels
 ### Credits💫
 
 >GitHub [@RionDsilvaCS](https://github.com/RionDsilvaCS)  ·  Linkedin [@Rion Dsilva](https://www.linkedin.com/in/rion-dsilva-043464229/)
->Android Developer📱
+Android Developer📱
 
 >GitHub [@puneethx](https://github.com/puneethx)  ·  Linkedin [@Puneeth Reddy](https://www.linkedin.com/in/puneeth-reddy-75069824b/)
->Web Developer🌐
+Web Developer🌐
 
 >GitHub [@Aniesh04](https://github.com/Aniesh04)  ·  Linkedin [@Aniesh Reddy Gundam](https://www.linkedin.com/in/aniesh-reddy-gundam-016365232/)
->Web Developer🌐
+Web Developer🌐
 
 ---
 © 2023 StressAway💚
