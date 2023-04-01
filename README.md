@@ -1,5 +1,5 @@
 # Welcome To StressAway
-![alt banner](https://github.com/[RionDsilvaCS]/[StressAway-WebApp]/blob/[main]/StressAwayBanner.png?raw=true)
+![banner](StressAwayBanner.png)
 
 ----
 #### What is StressAway🏥?
