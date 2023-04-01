@@ -1,27 +1,28 @@
 # Welcome To StressAway
+![alt banner](https://github.com/[RionDsilvaCS]/[StressAway-WebApp]/blob/[main]/StressAwayBanner.png?raw=true)
 
 ----
-#### What is StressAway?
+#### What is StressAway🏥?
 
-StressAway is a product that enhances the mood of a person by recommending stress relief ways based on the journal written by the person. The product analyzes the journal , understands the mood of a person and recommends music , movies, books, exercises, diet and also the places around the user’s location that boosts his/her mood.
+StressAway is a product that enhances the mood of a person by recommending stress relief ways based on the journal written by the person. The product analyzes the journal📒, understands the mood of a person and recommends music🎶 , movies🎬, books📚, exercises🏋️, diet🥗 and also the places around the user’s location 📍 that boosts his/her mood.
 
-#### Our Aim
+#### Our Aim🦋
 
-##### ***To help all students maintain Good Mental Health.***
+##### ***To help all students maintain Good Mental Health.*** 👨‍🎓👩‍🎓
 
 
-[**Website link**](https://stress-away-web-app.vercel.app/)
+[**Website link**](https://stress-away-web-app.vercel.app/) 👨‍💻
 
-[**Mobile Application link (Android)**](https://docs.google.com/document/d/18u4a0I_mjZga2vXR3gWfkexkVFREo55jOuwgyH-Xjsg/edit?usp=sharing)
+[**Mobile Application link (Android)**](https://docs.google.com/document/d/18u4a0I_mjZga2vXR3gWfkexkVFREo55jOuwgyH-Xjsg/edit?usp=sharing) 👩‍💻
 
 ----
-### Setup the website
+### Setup the website😉
 
 >GitHub
 
-- First fork the repository and give it a star.
-- Secondly pull down the repository which you have forked.
-- Third in the same directory install run the following commands 
+- 1️⃣ fork the repository📗 and give it a star🌟
+- 2️⃣ pull down the repository which you have forked.
+- 3️⃣ in the same directory install run🏃 the following commands.
 
 Make sure that Node.js is previously installed in your system, than run the below command
 
@@ -30,14 +31,14 @@ npm install -g npm
 ```
 
 
-Next run the below command install the latest firebase.
+Next run the below command install the latest firebase💥
 
 ```console
 npm install firebase
 ```
 
 
-Than run the below command and the website will be locally hosted 
+Than run the below command and the website will be locally hosted ✅
 
 ```console
 npm run dev
@@ -46,39 +47,27 @@ npm run dev
 If in case it dosen't run and pops up that firebase is not installed, just restart the system and it will be ready to go on your local server.
 
 ----
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+### About Us💚
 
-## Creating a project
+Covid 19 pandemic has a severe impact on global mental health leading to a significant increase in anxiety and depression cases. This is a serious issue because it affects an individual’s daily life and relationships but also has long-term consequences for their physical health and well-being.  
+  
+Mental health is a critical aspect of overall health and well-being and it is essential to address this issue in order to support individuals and communities in order to overcome the challenges posed by the pandemic.  
+  
+StressAway can be can be a valuable tool to address given health⚕ problem issues related to stress and anxiety. Stress is a common issue that affects many people in today's fast-paced and demanding world. It can lead to a range of mental health problems, including anxiety, depression, and insomnia, among others.   
+  
+StressAway is designed to help individuals manage and reduce their stress levels by promoting relaxation and mindfulness. This product can help to create a calming and relaxing atmosphere that reduces stress and promotes relaxation. This can be particularly important for individuals who feel overwhelmed or out of control in their daily lives.
 
-If you're seeing this, you've probably already done this step. Congrats!
+----
+### Credits💫
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+>GitHub [@RionDsilvaCS](https://github.com/RionDsilvaCS)  ·  Linkedin [@Rion Dsilva](https://www.linkedin.com/in/rion-dsilva-043464229/)
+>Android Developer📱
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+>GitHub [@puneethx](https://github.com/puneethx)  ·  Linkedin [@Puneeth Reddy](https://www.linkedin.com/in/puneeth-reddy-75069824b/)
+>Web Developer🌐
 
-## Developing
+>GitHub [@Aniesh04](https://github.com/Aniesh04)  ·  Linkedin [@Aniesh Reddy Gundam](https://www.linkedin.com/in/aniesh-reddy-gundam-016365232/)
+>Web Developer🌐
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+---
+© 2023 StressAway💚
