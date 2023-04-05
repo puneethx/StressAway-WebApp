@@ -18,8 +18,8 @@
             <a href = "/journal" class="nav-item">
                 <a href="/journal" class="nav-link">Journal</a> 
             </a>
-            <a href = "/" class="nav-item">
-                <a href="/" class="nav-link">About</a>
+            <a href = "/about" class="nav-item">
+                <a href="/about" class="nav-link">About</a>
             </a>
             <a href = "/" class="nav-item">
                 <a href="/" class="nav-link">Contact Us</a>

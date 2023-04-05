@@ -8,7 +8,7 @@
 </div>
 <style>
     .why{
-  padding-top: 250px;
+  padding-top: 150px;
   color: #63CCAB;
   font-family: 'Poppins', sans-serif;
   font-size: large;

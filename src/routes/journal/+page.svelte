@@ -6,6 +6,7 @@
     import Movie from "$lib/Journal/movies.svelte";
     import Footer from "$lib/footer.svelte";
 </script>
+
 <main>
 <Header/>
 <Everyday/>

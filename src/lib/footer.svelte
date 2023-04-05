@@ -33,10 +33,10 @@
                 <h6 class="footer__title">Rion Dsilva</h6>
                 <ul class="footer__list">
                     <li class="footer__list-item">
-                        <a href="/" class="footer__list-link">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/rion-dsilva-043464229/" class="footer__list-link">LinkedIn</a>
                     </li>
                     <li class="footer__list-item">
-                        <a href="/" class="footer__list-link">Github</a>
+                        <a href="https://github.com/RionDsilvaCS" class="footer__list-link">Github</a>
                     </li>
                 
                 </ul>
@@ -46,10 +46,10 @@
                 <h6 class="footer__title">Puneeth Reddy</h6>
                 <ul class="footer__list">
                     <li class="footer__list-item">
-                        <a href="/" class="footer__list-link">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/puneeth-reddy-75069824b/" class="footer__list-link">LinkedIn</a>
                     </li>
                     <li class="footer__list-item">
-                        <a href="/" class="footer__list-link">Github</a>
+                        <a href="https://github.com/puneethx" class="footer__list-link">Github</a>
                     </li>
                     
                 </ul>
@@ -59,10 +59,10 @@
                 <h6 class="footer__title">Aniesh Reddy</h6>
                 <ul class="footer__list">
                     <li class="footer__list-item">
-                        <a href="/" class="footer__list-link">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/aniesh-reddy-gundam-016365232/" class="footer__list-link">LinkedIn</a>
                     </li>
                     <li class="footer__list-item">
-                        <a href="/" class="footer__list-link">Github</a>
+                        <a href="https://github.com/Aniesh04" class="footer__list-link">Github</a>
                     </li>
                 </ul>
             </div>
