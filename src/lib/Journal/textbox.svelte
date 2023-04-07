@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
   import { initializeApp, getApps, getApp } from "firebase/app";
   import { getFirestore, collection, onSnapshot,addDoc  } from "firebase/firestore";
 	import { empty } from "svelte/internal";
@@ -25,6 +27,11 @@
     
     }
 
+
+    
+
+
+
 </script>
 
 <div>
@@ -35,11 +42,19 @@
     <button class="saveit" on:click = {handleClick}><span>Save it! for future</span></button>
     <br>
     
+    <form action="/prev">
     <button class="prev" on:click = {handleClick}><span>Previous Jorunals</span></button>
+  </form>
+    
+    
+
+
 
   </div>
 </div>  
 <style>
+
+
 
     .journaltxt{
   background-color: #E7FFEB;
