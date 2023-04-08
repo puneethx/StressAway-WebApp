@@ -14,6 +14,20 @@
     
     const firebaseApp = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
     const db = getFirestore();
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
+    const date = new Date();
+    let day = date.getDate();
+    let month = monthNames[date.getMonth()];
+    let year = date.getFullYear();
+
+
+
+    let currentDate =  `${day} ${month}, ${year}`;
+    
+
     const colRef = collection(db, "journal")
 
       async function handleClick() {
@@ -21,7 +35,7 @@
           console.log(Texti);
           await addDoc(colRef, {
           content: Texti,
-          date: "26 March"
+          date : currentDate
         });
     }
     

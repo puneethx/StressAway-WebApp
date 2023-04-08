@@ -38,14 +38,24 @@ const unsubscribe = onSnapshot(colRef, (querySnapshot) => {
     Here are your previous Journals.!
 </p>
 
+<nav class = "flex">
 <div class="journals">
+
         <p class = "prevJournal">
             {#each journal as item}
-            <div class = "journaltxt"><div class = "text"><li>Date : {item.date}<br><br>Journal : {item.content}</li></div><br></div>
+            <div class = "journaltxt"><div class = "text">
+              <ol>{item.content}
+                <br><br><p class = "date">
+                - {item.date}</p>
+              </ol>
+            </div>
+            <br>
+          </div>
             {/each}
-        </p>    
+        </p> 
+           
 </div>
-    
+</nav>
 
     
 
@@ -60,6 +70,9 @@ const unsubscribe = onSnapshot(colRef, (querySnapshot) => {
     padding: 0;
     box-sizing: border-box;
 }
+.date{
+  font-weight:bold;
+}
 
 .fl{
     padding-top: 40px;
@@ -70,7 +83,9 @@ const unsubscribe = onSnapshot(colRef, (querySnapshot) => {
     font-size: 26px;
 }
 
-
+  .flex{
+    display:flex;
+  }
 
   .journaltxt{
   background-color: #E7FFEB;

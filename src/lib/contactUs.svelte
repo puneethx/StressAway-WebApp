@@ -17,7 +17,7 @@
         <div class="info">
           <p class="name">T Puneeth Reddy</p>
           <p class = "job">Web Developer</p>
-          <nav class = "social"><div class = "gap"><form action="">
+          <nav class = "social"><div class = "gap"><form action="https://www.linkedin.com/in/puneeth-reddy-75069824b/">
             <button class="link">
               <span class="link-name">LinkedIn</span>
             </button>
