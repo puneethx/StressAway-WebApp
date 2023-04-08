@@ -6,6 +6,5 @@
 <main>
     <Header/>
     <Previ/>
-    
     <Footer/>
 </main>

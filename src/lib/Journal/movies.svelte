@@ -1,8 +1,36 @@
 <script>
+// @ts-nocheck
+
+
     import moviePic1 from "$lib/assets/movpic1.png"
     import moviePic2 from "$lib/assets/movpic2.png"
     import moviePic3 from "$lib/assets/movpic3.png"
     import moviePic4 from "$lib/assets/movpic4.png"
+  
+  
+    import { initializeApp } from "firebase/app";
+    import { getFirestore, collection, onSnapshot,doc, updateDoc, deleteDoc, addDoc} from "firebase/firestore";
+    import {firebaseConfig} from "$lib/firebaseConfig";
+
+    const firebaseApp = initializeApp(firebaseConfig);
+      
+      const db =  getFirestore();
+      
+      const colRef = collection(db, "Movies");
+      
+      let Movies = [ ];
+
+      const unsubscribe = onSnapshot(colRef, (querySnapshot) => {
+      let fbMovies = [];
+    querySnapshot.forEach((doc) => {
+      let movie = {...doc.data(),id : doc.id}
+      fbMovies = [movie,...fbMovies];
+    });
+    Movies = fbMovies;
+  });
+
+  let content="";
+
 </script>
 
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -87,6 +115,12 @@
 
 
 <style>
+
+
+
+
+
+
     .movies{
         font-family: "Poppins",sans-serif;
         padding-left:100px;

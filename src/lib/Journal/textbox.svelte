@@ -33,8 +33,8 @@
 
 
 </script>
-
-<div>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<div class="all">
 <div class = "Texte"><textarea bind:value={Texti} class="journaltxt" maxlength="1200" rows="15" cols="60"></textarea><br>
  
 </div>
@@ -53,7 +53,9 @@
   </div>
 </div>  
 <style>
-
+  .all{
+    font-family: 'Poppins', sans-serif;
+  }
 
 
     .journaltxt{
@@ -85,7 +87,7 @@
 .button_container {
     margin-bottom: 30px;
     padding-left: 120px;
-    
+    font-family: "Poppins",sans-serif;
 }
 
 
@@ -102,9 +104,10 @@
   font-weight: 700;
   font-size: 15px;
   background-color: #ffffff;
-  padding: 17px 60px;
+  padding: 15px 60px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  font-family: "Poppins",sans-serif;
 }
 
 .saveit span {
