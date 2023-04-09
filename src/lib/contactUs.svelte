@@ -72,14 +72,14 @@
       <div class="info">
         <p class="name">Rion Dsilva</p>
         <p class = "job">Android Developer</p>
-        <nav class = "social"><div class = "gap"><form action="">
+        <nav class = "social"><div class = "gap"><form action="https://www.linkedin.com/in/rion-dsilva-043464229/">
           <button class="link">
             <span class="link-name">LinkedIn</span>
           </button>
       </form>
     </div>
     
-    <form action="">
+    <form action="https://github.com/RionDsilvaCS">
         <button class="git"><span class="git-name">Github</span></button>
       </form>
     </nav>

@@ -38,7 +38,6 @@ const unsubscribe = onSnapshot(colRef, (querySnapshot) => {
     Here are your previous Journals.!
 </p>
 
-<nav class = "flex">
 <div class="journals">
 
         <p class = "prevJournal">
@@ -55,7 +54,6 @@ const unsubscribe = onSnapshot(colRef, (querySnapshot) => {
         </p> 
            
 </div>
-</nav>
 
     
 
@@ -82,11 +80,6 @@ const unsubscribe = onSnapshot(colRef, (querySnapshot) => {
     font-weight: bold;
     font-size: 26px;
 }
-
-  .flex{
-    display:flex;
-  }
-
   .journaltxt{
   background-color: #E7FFEB;
   height: 250px;
