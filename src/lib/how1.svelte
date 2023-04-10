@@ -20,32 +20,32 @@
 
 <style>
     .How{
-        padding-top: 50px;
+        padding-top: 3.5%;
         color: #63CCAB;
         font-family: 'Poppins', sans-serif;
         font-size: large;
-        padding-left: 12rem;
+        padding-left: 13%;
     }
     .How2{
         color: #0f4b59;
-        padding-left: 330px;
-        padding-right: 280px;
-        font-size: 19px;
+        padding-left: 23%;
+        padding-right: 18.5%;
+        font-size: 118.75%;
         font-family: 'Poppins', sans-serif;
     }
     .Aim{
-        padding-top: 50px;
+        padding-top: 3.5%;
         color: #63CCAB;
         font-family: 'Poppins', sans-serif;
         font-size: large;
-        padding-left: 12rem;
+        padding-left: 13%;
     }
     .Aim2{
         color: #0f4b59;
-        padding-left: 330px;
-        padding-right: 280px;
-        padding-bottom: 75px;
-        font-size: 19px;
+        padding-left: 23%;
+        padding-right: 18.5%;
+        padding-bottom: 5%;
+        font-size: 118.75%;
         font-family: 'Poppins', sans-serif;
     }
     </style>

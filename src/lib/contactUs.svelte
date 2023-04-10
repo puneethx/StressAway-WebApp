@@ -17,14 +17,14 @@
         <div class="info">
           <p class="name">T Puneeth Reddy</p>
           <p class = "job">Web Developer</p>
-          <nav class = "social"><div class = "gap"><form action="https://www.linkedin.com/in/puneeth-reddy-75069824b/">
+          <nav class = "social"><div class = "gap"><form action="https://www.linkedin.com/in/puneeth-reddy-75069824b/" target="_blank">
             <button class="link">
               <span class="link-name">LinkedIn</span>
             </button>
         </form>
       </div>
       
-      <form action="https://github.com/puneethx">
+      <form action="https://github.com/puneethx" target="_blank">
           <button class="git"><span class="git-name">Github</span></button>
         </form>
       </nav>
@@ -45,14 +45,14 @@
           <p class="name">G Aniesh Reddy</p>
           <p class = "job">Web Developer</p>
           <nav class = "social"><div class = "gap">
-            <form action="https://www.linkedin.com/in/aniesh-reddy-gundam-016365232/">
+            <form action="https://www.linkedin.com/in/aniesh-reddy-gundam-016365232/" target="_blank">
             <button class="link">
               <span class="link-name">LinkedIn</span>
             </button>
         </form>
       </div>
       
-      <form action="https://github.com/Aniesh04">
+      <form action="https://github.com/Aniesh04" target="_blank">
           <button class="git"><span class="git-name">Github</span></button>
         </form>
       </nav>
@@ -72,14 +72,14 @@
       <div class="info">
         <p class="name">Rion Dsilva</p>
         <p class = "job">Android Developer</p>
-        <nav class = "social"><div class = "gap"><form action="https://www.linkedin.com/in/rion-dsilva-043464229/">
+        <nav class = "social"><div class = "gap"><form action="https://www.linkedin.com/in/rion-dsilva-043464229/" target="_blank">
           <button class="link">
             <span class="link-name">LinkedIn</span>
           </button>
       </form>
     </div>
     
-    <form action="https://github.com/RionDsilvaCS">
+    <form action="https://github.com/RionDsilvaCS" target="_blank">
         <button class="git"><span class="git-name">Github</span></button>
       </form>
     </nav>

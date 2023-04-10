@@ -8,16 +8,16 @@
 </div>
 <style>
     .why{
-  padding-top: 150px;
+  padding-top: 5%;
   color: #63CCAB;
   font-family: 'Poppins', sans-serif;
   font-size: large;
-  padding-left: 12rem;
+  padding-left: 13%;
 }
 .why2{
   color: #0f4b59;
-  padding-left: 330px;
-  padding-right: 280px;
+  padding-left: 23%;
+  padding-right: 18.5%;
   font-size: 19px;
   font-family: 'Poppins', sans-serif;
 }
