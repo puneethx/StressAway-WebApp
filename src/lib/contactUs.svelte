@@ -45,14 +45,22 @@
           <p class="name">G Aniesh Reddy</p>
           <p class = "job">Web Developer</p>
           <nav class = "social"><div class = "gap">
+<<<<<<< HEAD
             <form action="https://www.linkedin.com/in/aniesh-reddy-gundam-016365232/" target="_blank">
+=======
+            <form action="https://www.linkedin.com/in/aniesh-reddy-gundam-016365232/"  target="_blank">
+>>>>>>> d0742d14c005c5ecf6b8866b1fb2f81b1b903f8f
             <button class="link">
               <span class="link-name">LinkedIn</span>
             </button>
         </form>
       </div>
       
+<<<<<<< HEAD
       <form action="https://github.com/Aniesh04" target="_blank">
+=======
+      <form action="https://github.com/Aniesh04"  target="_blank">
+>>>>>>> d0742d14c005c5ecf6b8866b1fb2f81b1b903f8f
           <button class="git"><span class="git-name">Github</span></button>
         </form>
       </nav>
@@ -72,14 +80,22 @@
       <div class="info">
         <p class="name">Rion Dsilva</p>
         <p class = "job">Android Developer</p>
+<<<<<<< HEAD
         <nav class = "social"><div class = "gap"><form action="https://www.linkedin.com/in/rion-dsilva-043464229/" target="_blank">
+=======
+        <nav class = "social"><div class = "gap"><form action=""  target="_blank" >
+>>>>>>> d0742d14c005c5ecf6b8866b1fb2f81b1b903f8f
           <button class="link">
             <span class="link-name">LinkedIn</span>
           </button>
       </form>
     </div>
     
+<<<<<<< HEAD
     <form action="https://github.com/RionDsilvaCS" target="_blank">
+=======
+    <form action=""  target="_blank">
+>>>>>>> d0742d14c005c5ecf6b8866b1fb2f81b1b903f8f
         <button class="git"><span class="git-name">Github</span></button>
       </form>
     </nav>
